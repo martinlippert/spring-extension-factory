@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Utility Bundle for Spring and the Equinox-Extension-Registry
+Bundle-SymbolicName: org.eclipse.springframework.util
+Bundle-Version: 1.0.4
+Bundle-Vendor: Martin Lippert
+Bundle-Activator: org.eclipse.springframework.util.Activator
+Import-Package: org.eclipse.core.runtime,
+ org.osgi.framework,
+ org.osgi.util.tracker,
+ org.springframework.beans.factory,
+ org.springframework.context,
+ org.springframework.core.io.support
+Export-Package: org.eclipse.springframework.util
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
